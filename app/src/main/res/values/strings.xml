@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MotionDemo</string>
+    <string name="home_find_icon_title">发现</string>
+    <string name="home_classroom_icon_title">教室</string>
+    <string name="home_playground_icon_title">操场</string>
+    <string name="home_my_icon_title">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

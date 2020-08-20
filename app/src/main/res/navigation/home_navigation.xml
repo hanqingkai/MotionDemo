@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/findFragment">
+
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.qingkai.motiondemo.fragment.FindFragment"
+        android:label="@string/home_find_icon_title"
+        tools:layout="@layout/fragment_find" />
+    <fragment
+        android:id="@+id/classRommFragment"
+        android:name="com.qingkai.motiondemo.fragment.ClassRommFragment"
+        android:label="@string/home_classroom_icon_title"
+        tools:layout="@layout/fragment_class_romm" />
+    <fragment
+        android:id="@+id/playgroundFragment"
+        android:name="com.qingkai.motiondemo.fragment.PlaygroundFragment"
+        android:label="@string/home_playground_icon_title"
+        tools:layout="@layout/fragment_playground" />
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="com.qingkai.motiondemo.fragment.MyFragment"
+        android:label="@string/home_my_icon_title"
+        tools:layout="@layout/fragment_my" />
+</navigation>
